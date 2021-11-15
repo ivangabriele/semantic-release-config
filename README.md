@@ -1,64 +1,20 @@
 # My Semantic Release Configurations
 
-[![License][img-license]][lnk-license]
-
 My most commonly used Semantic Release configurations.
 
 ## Usage
 
 ### Base
 
-[![NPM Version][img-npm-base]][lnk-npm-base]
+[![License][img-license]][lnk-license] [![NPM Version][img-npm-base]][lnk-npm-base]
 
-Run:
-
-```sh
-yarn add -DE @ivangabriele/semantic-release-config-base
-```
-
-or:
-
-```sh
-npm i -DE @ivangabriele/semantic-release-config-base
-```
-
-Then extend it in your `package.json`:
-
-```json
-{
-  // ...
-  "release": {
-    "extends": "@ivangabriele/semantic-release-config-base"
-  }
-}
-```
+Check the package [README](packages/base/README.md).
 
 ### Dist
 
-[![NPM Version][img-npm-dist]][lnk-npm-dist]
+[![License][img-license]][lnk-license] [![NPM Version][img-npm-dist]][lnk-npm-dist]
 
-Run:
-
-```sh
-yarn add -DE @ivangabriele/semantic-release-config-dist
-```
-
-or:
-
-```sh
-npm i -DE @ivangabriele/semantic-release-config-dist
-```
-
-Then extend it in your `package.json`:
-
-```json
-{
-  // ...
-  "release": {
-    "extends": "@ivangabriele/semantic-release-config-dist"
-  }
-}
-```
+Check the package [README](packages/dist/README.md).
 
 ---
 

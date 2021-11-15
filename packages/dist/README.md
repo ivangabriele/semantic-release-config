@@ -18,7 +18,7 @@ or:
 npm i -DE @ivangabriele/semantic-release-config-dist
 ```
 
-Then extend it in your `package.json`:
+Extend it in your `package.json`:
 
 ```json
 {
@@ -27,6 +27,40 @@ Then extend it in your `package.json`:
     "extends": "@ivangabriele/semantic-release-config-dist"
   }
 }
+```
+
+Then add a manually triggered workflow in Github Actions (i.e.: `.github\workflows\release.yml`):
+
+```yaml
+name: Release
+
+on: workflow_dispatch
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Setup
+        uses: actions/setup-node@v2
+        with:
+          cache: yarn
+          node-version: 16
+      - name: Install
+        run: yarn install --frozen-lockfile
+
+      # ...
+
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: yarn semantic-release
 ```
 
 ---
