@@ -52,7 +52,7 @@ jobs:
           cache: yarn
           node-version: 16
       - name: Install
-        run: yarn install --frozen-lockfile
+        run: yarn
 
       # ...
 
