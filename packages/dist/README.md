@@ -9,7 +9,7 @@ My most commonly used Semantic Release configuration.
 Run:
 
 ```sh
-yarn add -DE @ivangabriele/semantic-release-config
+yarn add -DE @ivangabriele/semantic-release-config-dist
 ```
 
 or:
