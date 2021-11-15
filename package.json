@@ -1,0 +1,21 @@
+{
+  "name": "@ivangabriele/semantic-release-config",
+  "description": "My most commonly used Semantic Release configurations.",
+  "license": "MIT",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "./packages/*"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "postversion": "node ./scripts/publish.js"
+  },
+  "devDependencies": {
+    "@ivangabriele/commitlint-config": "1.0.1",
+    "@ivangabriele/prettier-config": "2.0.2",
+    "husky": "7.0.4",
+    "shelljs": "0.8.4"
+  },
+  "prettier": "@ivangabriele/prettier-config"
+}
