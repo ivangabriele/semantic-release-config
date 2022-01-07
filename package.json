@@ -15,7 +15,7 @@
     "@ivangabriele/commitlint-config": "1.0.2",
     "@ivangabriele/prettier-config": "2.0.2",
     "husky": "7.0.4",
-    "shelljs": "0.8.4"
+    "shelljs": "0.8.5"
   },
   "prettier": "@ivangabriele/prettier-config"
 }
