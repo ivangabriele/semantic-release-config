@@ -191,12 +191,10 @@
     "@commitlint/cli" "14.1.0"
     "@commitlint/config-conventional" "14.1.0"
 
-"@ivangabriele/prettier-config@2.0.2":
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/@ivangabriele/prettier-config/-/prettier-config-2.0.2.tgz#0d2c87f122fa4f3b898bbe776f377b66042b1220"
-  integrity sha512-Qco2U1F8p3OYrrhV+pTIEOwZdqix0+NEk640nupJrd0Uw6pgLHBsH7KkgPaohQOS6segEFXWOmPP1qxyP/FqeA==
-  dependencies:
-    prettier "2.4.1"
+"@ivangabriele/prettier-config@3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@ivangabriele/prettier-config/-/prettier-config-3.0.2.tgz#27cc7be7b9787248936cc2744ab0750f033320a6"
+  integrity sha512-IlkhHdhDvj6me23zhB4xjXUdFLJGGeE1Od3gof04BzgLL+439bMHFQA1ZuA//+F+ENtDxNvY9dg14aOLzaAU1Q==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -2799,11 +2797,6 @@ pkg-conf@^2.1.0:
   dependencies:
     find-up "^2.0.0"
     load-json-file "^4.0.0"
-
-prettier@2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.4.1.tgz#671e11c89c14a4cfc876ce564106c4a6726c9f5c"
-  integrity sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==
 
 proc-log@^1.0.0:
   version "1.0.0"
