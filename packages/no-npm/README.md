@@ -9,13 +9,7 @@ My most commonly used Semantic Release configuration.
 Run:
 
 ```sh
-yarn add -DE @ivangabriele/semantic-release-config-dist
-```
-
-or:
-
-```sh
-npm i -DE @ivangabriele/semantic-release-config-dist
+yarn add -DE @ivangabriele/semantic-release-config-no-npm
 ```
 
 Extend it in your `package.json`:
@@ -24,7 +18,7 @@ Extend it in your `package.json`:
 {
   // ...
   "release": {
-    "extends": "@ivangabriele/semantic-release-config-dist"
+    "extends": "@ivangabriele/semantic-release-config-no-npm"
   }
 }
 ```
@@ -59,13 +53,12 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: yarn semantic-release
 ```
 
 ---
 
 [img-license]: https://img.shields.io/github/license/ivangabriele/semantic-release-config?style=flat-square
-[img-npm]: https://img.shields.io/npm/v/@ivangabriele/semantic-release-config-dist?style=flat-square
+[img-npm]: https://img.shields.io/npm/v/@ivangabriele/semantic-release-config-no-npm?style=flat-square
 [lnk-license]: https://github.com/ivangabriele/semantic-release-config/blob/main/LICENSE
-[lnk-npm]: https://www.npmjs.com/package/@ivangabriele/semantic-release-config-dist
+[lnk-npm]: https://www.npmjs.com/package/@ivangabriele/semantic-release-config

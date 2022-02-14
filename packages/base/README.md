@@ -61,6 +61,5 @@ jobs:
 
 [img-license]: https://img.shields.io/github/license/ivangabriele/semantic-release-config?style=flat-square
 [img-npm]: https://img.shields.io/npm/v/@ivangabriele/semantic-release-config-base?style=flat-square
-[lnk-license]:
-  https://github.com/ivangabriele/semantic-release-config/blob/main/packages/semantic-release-config-dist/LICENSE
+[lnk-license]: https://github.com/ivangabriele/semantic-release-config/blob/main/LICENSE
 [lnk-npm]: https://www.npmjs.com/package/@ivangabriele/semantic-release-config
