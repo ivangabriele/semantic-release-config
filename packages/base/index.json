@@ -17,7 +17,9 @@
         "releaseRules": [
           { "type": "build", "scope": "deps", "release": "patch" },
           { "type": "chore", "scope": "deps", "release": "patch" },
-          { "type": "docs", "scope": "readme", "release": "patch" },
+          { "type": "docs", "release": "patch" },
+          { "type": "feat", "release": "minor" },
+          { "type": "refactor", "release": "patch" },
           { "type": "style", "release": "patch" }
         ]
       }
