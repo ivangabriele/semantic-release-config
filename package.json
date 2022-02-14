@@ -2,7 +2,7 @@
   "name": "@ivangabriele/semantic-release-config",
   "description": "My most commonly used Semantic Release configurations.",
   "license": "MIT",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "private": true,
   "workspaces": [
     "./packages/*"
