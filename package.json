@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "prepare": "husky install",
-    "postversion": "node ./scripts/publish.js"
+    "postversion": "node ./scripts/publish.js",
+    "test:lint": "prettier --check ."
   },
   "devDependencies": {
     "@commitlint/cli": "16.2.1",
