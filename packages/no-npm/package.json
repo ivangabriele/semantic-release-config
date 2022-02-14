@@ -2,7 +2,7 @@
   "name": "@ivangabriele/semantic-release-config-no-npm",
   "description": "My most commonly used Semantic Release configuration.",
   "license": "MIT",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "main": "./index.json",
   "dependencies": {
     "@semantic-release/changelog": "6.0.1",
