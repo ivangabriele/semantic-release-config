@@ -55,6 +55,15 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: yarn semantic-release
+      - name: Get version
+        id: get_version
+        run: echo ::set-output name=version::$(npm pkg get version | sed 's/"//g')
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          branch: ci-release-v${{ steps.get_version.outputs.version }}
+          commit-message: 'ci(release): ${{ steps.get_version.outputs.version }} [skip ci]'
+          token: ${{ secrets.GH_PAT }}
 ```
 
 ---
