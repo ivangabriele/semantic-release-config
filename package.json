@@ -13,12 +13,12 @@
     "test:lint": "prettier --check ."
   },
   "devDependencies": {
-    "@commitlint/cli": "16.2.1",
+    "@commitlint/cli": "16.2.3",
     "@commitlint/config-conventional": "16.2.1",
     "@ivangabriele/commitlint-config": "1.0.5",
     "@ivangabriele/prettier-config": "3.0.2",
     "husky": "7.0.4",
-    "prettier": "2.5.1",
+    "prettier": "2.6.0",
     "shelljs": "0.8.5"
   },
   "prettier": "@ivangabriele/prettier-config"
