@@ -1,6 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 
-const shelljs = require('shelljs')
+import shelljs from 'shelljs'
 
 const VERSION = process.env.npm_package_version
 
