@@ -53,9 +53,11 @@ Check the package [README](packages/no-npm/README.md).
 [img-npm-base]: https://img.shields.io/npm/v/@ivangabriele/semantic-release-config-base?style=for-the-badge
 [img-npm-base-yarn]: https://img.shields.io/npm/v/@ivangabriele/semantic-release-config-base-yarn?style=for-the-badge
 [img-npm-dist]: https://img.shields.io/npm/v/@ivangabriele/semantic-release-config-dist?style=for-the-badge
+[img-npm-dist-yarn]: https://img.shields.io/npm/v/@ivangabriele/semantic-release-config-dist-yarn?style=for-the-badge
 [img-npm-no-npm]: https://img.shields.io/npm/v/@ivangabriele/semantic-release-config-no-npm?style=for-the-badge
 [lnk-license]: https://github.com/ivangabriele/semantic-release-config/blob/main/LICENSE
 [lnk-npm-base]: https://www.npmjs.com/package/@ivangabriele/semantic-release-config-base
 [lnk-npm-base-yarn]: https://www.npmjs.com/package/@ivangabriele/semantic-release-config-base-yarn
 [lnk-npm-dist]: https://www.npmjs.com/package/@ivangabriele/semantic-release-config-dist
+[lnk-npm-dist-yarn]: https://www.npmjs.com/package/@ivangabriele/semantic-release-config-dist-yarn
 [lnk-npm-no-npm]: https://www.npmjs.com/package/@ivangabriele/semantic-release-config-no-npm
