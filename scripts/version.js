@@ -57,8 +57,8 @@ try {
   await execa('git', ['commit', '-m', `ci(release): ${nextVersion}`], execaOptions)
   await $(execaOptions)`git tag v${nextVersion}`
 
-  if (rootPackageJson.postversion) {
-    await $`yarn postversion`
+  if (rootPackageJson.scripts.postversion) {
+    await $(execaOptions)`yarn postversion`
   }
 } catch (err) {
   console.error(`Error: ${err}`)
