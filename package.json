@@ -10,17 +10,20 @@
   ],
   "scripts": {
     "prepare": "husky install",
-    "release": "lerna version --no-private --yes"
+    "version": "node ./scripts/version.js",
+    "postversion": "git push origin HEAD --tags"
   },
   "devDependencies": {
     "@commitlint/cli": "17.6.6",
     "@commitlint/config-conventional": "17.6.6",
     "@ivangabriele/commitlint-config": "1.0.6",
     "@ivangabriele/prettier-config": "3.1.0",
+    "@types/semver": "7.5.0",
+    "esm-path": "1.0.1",
     "execa": "7.1.1",
     "husky": "8.0.3",
-    "lerna": "7.1.1",
-    "prettier": "2.8.8"
+    "prettier": "2.8.8",
+    "semver": "7.5.3"
   },
   "resolutions": {
     "minimist": ">=1.2.6",
