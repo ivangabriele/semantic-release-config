@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "prepare": "husky install",
-    "release": "lerna version --yes"
+    "release": "lerna version --no-private --yes"
   },
   "devDependencies": {
     "@commitlint/cli": "17.6.6",
