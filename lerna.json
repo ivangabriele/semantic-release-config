@@ -1,4 +1,10 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "command": {
+    "version": {
+      "allowBranch": "main",
+      "conventionalCommits": true
+    }
+  },
   "version": "2.1.0"
 }
