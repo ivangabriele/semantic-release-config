@@ -9,7 +9,13 @@ My most commonly used Semantic Release configuration.
 Run:
 
 ```sh
-yarn add -DE @ivangabriele/semantic-release-config-no-npm
+yarn add -DE @ivangabriele/semantic-release-config-dist-yarn
+```
+
+or:
+
+```sh
+npm i -DE @ivangabriele/semantic-release-config-dist-yarn
 ```
 
 Extend it in your `package.json`:
@@ -18,7 +24,7 @@ Extend it in your `package.json`:
 {
   // ...
   "release": {
-    "extends": "@ivangabriele/semantic-release-config-no-npm"
+    "extends": "@ivangabriele/semantic-release-config-dist-yarn"
   }
 }
 ```
@@ -43,14 +49,14 @@ jobs:
       - name: Setup
         uses: actions/setup-node@v3
         with:
-          cache: npm
+          cache: yarn
           node-version: 20
       - name: Install
-        run: npm ci
+        run: yarn --frozen-lockfile
       - name: Build
-        run: npm run build
+        run: yarn build
       - name: Release
-        run: npm run semantic-release
+        run: yarn semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -69,7 +75,7 @@ jobs:
 
 ---
 
-[img-license]: https://img.shields.io/github/license/ivangabriele/semantic-release-config?style=flat-square
-[img-npm]: https://img.shields.io/npm/v/@ivangabriele/semantic-release-config-no-npm?style=flat-square
-[lnk-license]: https://github.com/ivangabriele/semantic-release-config/blob/main/packages/no-npm/LICENSE
-[lnk-npm]: https://www.npmjs.com/package/@ivangabriele/semantic-release-config
+[img-license]: https://img.shields.io/github/license/ivangabriele/semantic-release-config?style=for-the-badge
+[img-npm]: https://img.shields.io/npm/v/@ivangabriele/semantic-release-config-dist-yarn?style=for-the-badge
+[lnk-license]: https://github.com/ivangabriele/semantic-release-config/blob/main/packages/dist-yarn/LICENSE
+[lnk-npm]: https://www.npmjs.com/package/@ivangabriele/semantic-release-config-dist-yarn

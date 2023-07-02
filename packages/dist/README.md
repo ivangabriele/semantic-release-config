@@ -1,6 +1,6 @@
 # My Semantic Release Configuration
 
-[![License][img-license]][lnk-license] [![NPM Version][img-npm]][lnk-npm]
+[![MIT License][img-license]][lnk-license] [![NPM Version][img-npm]][lnk-npm]
 
 My most commonly used Semantic Release configuration.
 
@@ -42,22 +42,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
           persist-credentials: false
       - name: Setup
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          cache: yarn
-          node-version: 16
+          cache: npm
+          node-version: 20
       - name: Install
-        run: yarn
-
-      # ...
-
+        run: npm ci
+      - name: Build
+        run: npm run build
       - name: Release
-        run: yarn semantic-release
+        run: npm run semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -65,11 +64,12 @@ jobs:
         id: get_version
         run: echo ::set-output name=version::$(npm pkg get version | sed 's/"//g')
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v4
         with:
           branch: ci-release-v${{ steps.get_version.outputs.version }}
-          commit-message: 'ci(release): ${{ steps.get_version.outputs.version }} [skip ci]'
-          title: 'ci(release): ${{ steps.get_version.outputs.version }} [skip ci]'
+          # https://docs.github.com/en/actions/managing-workflow-runs/skipping-workflow-runs
+          commit-message: 'ci(release): ${{ steps.get_version.outputs.version }}'
+          title: 'ci(release): ${{ steps.get_version.outputs.version }}'
           token: ${{ secrets.GH_PAT }}
 ```
 
@@ -77,5 +77,5 @@ jobs:
 
 [img-license]: https://img.shields.io/github/license/ivangabriele/semantic-release-config?style=flat-square
 [img-npm]: https://img.shields.io/npm/v/@ivangabriele/semantic-release-config-dist?style=flat-square
-[lnk-license]: https://github.com/ivangabriele/semantic-release-config/blob/main/LICENSE
+[lnk-license]: https://github.com/ivangabriele/semantic-release-config/blob/main/packages/dist/LICENSE
 [lnk-npm]: https://www.npmjs.com/package/@ivangabriele/semantic-release-config-dist

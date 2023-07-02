@@ -1,0 +1,37 @@
+{
+  "name": "@ivangabriele/semantic-release-config-dist",
+  "description": "My most commonly used Semantic Release configuration.",
+  "license": "MIT",
+  "version": "2.1.0",
+  "main": "./index.json",
+  "dependencies": {
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/commit-analyzer": "10.0.1",
+    "@semantic-release/exec": "6.0.3",
+    "@semantic-release/github": "9.0.3",
+    "@semantic-release/npm": "10.0.4",
+    "@semantic-release/release-notes-generator": "11.0.3",
+    "semantic-release": "19.0.3"
+  },
+  "resolutions": {
+    "minimist": ">=1.2.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/ivangabriele/semantic-release#readme",
+  "repository": "https://github.com/ivangabriele/semantic-release",
+  "bugs": {
+    "email": "ivan.gabriele@gmail.com",
+    "url": "https://github.com/ivangabriele/semantic-release/issues"
+  },
+  "author": {
+    "name": "Ivan Gabriele",
+    "email": "ivan.gabriele@gmail.com",
+    "url": "https://www.ivangabriele.com"
+  },
+  "keywords": [
+    "semantic-release",
+    "config"
+  ]
+}

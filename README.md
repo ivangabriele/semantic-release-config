@@ -1,6 +1,6 @@
 # My Semantic Release Configurations
 
-[![License][img-license]][lnk-license]
+[![MIT License][img-license]][lnk-license]
 
 My most commonly used Semantic Release configurations.
 
@@ -10,6 +10,7 @@ My most commonly used Semantic Release configurations.
   - [Base (npm)](#base-npm)
   - [Base (Yarn)](#base-yarn)
   - [Dist (npm)](#dist-npm)
+  - [Dist (Yarn)](#dist-yarn)
   - [No NPM](#no-npm)
 
 ---
@@ -34,11 +35,11 @@ Check the package [README](packages/base-yarn/README.md).
 
 Check the package [README](packages/dist/README.md).
 
-<!-- ### Dist (Yarn)
+### Dist (Yarn)
 
 [![NPM Version][img-npm-dist-yarn]][lnk-npm-dist-yarn]
 
-Check the package [README](packages/dist-yarn/README.md). -->
+Check the package [README](packages/dist-yarn/README.md).
 
 ### No NPM
 
