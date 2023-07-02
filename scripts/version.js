@@ -8,7 +8,7 @@ try {
 
   const rootPackageJson = JSON.parse(await fs.readFile(`${ROOT_PATH}/package.json`, 'utf-8'))
 
-  if (rootPackageJson.preversion) {
+  if (rootPackageJson.scripts.preversion) {
     await $`yarn preversion`
   }
 
