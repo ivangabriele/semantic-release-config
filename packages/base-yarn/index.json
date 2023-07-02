@@ -31,12 +31,13 @@
       }
     ],
     "@semantic-release/changelog",
-    "@semantic-release/github",
     [
-      "@semantic-release/npm",
+      "@semantic-release/exec",
       {
-        "npmPublish": false
+        "prepareCmd": "npm version --no-git-tag-version ${nextRelease.version} && yarn"
       }
-    ]
+    ],
+    "@semantic-release/github",
+    "@semantic-release/npm"
   ]
 }

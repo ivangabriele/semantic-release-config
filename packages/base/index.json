@@ -16,15 +16,20 @@
       {
         "releaseRules": [
           { "type": "build", "scope": "deps", "release": "patch" },
-          { "type": "chore", "scope": "deps", "release": "patch" },
           { "type": "docs", "release": "patch" },
           { "type": "feat", "release": "minor" },
+          { "type": "perf", "release": "patch" },
           { "type": "refactor", "release": "patch" },
           { "type": "style", "release": "patch" }
         ]
       }
     ],
-    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        "preset": "angular"
+      }
+    ],
     "@semantic-release/changelog",
     "@semantic-release/github",
     "@semantic-release/npm"
