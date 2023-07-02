@@ -320,12 +320,39 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@ivangabriele/semantic-release-config-base-yarn@workspace:packages/base-yarn":
+  version: 0.0.0-use.local
+  resolution: "@ivangabriele/semantic-release-config-base-yarn@workspace:packages/base-yarn"
+  dependencies:
+    "@semantic-release/changelog": 6.0.3
+    "@semantic-release/commit-analyzer": 10.0.1
+    "@semantic-release/github": 9.0.3
+    "@semantic-release/npm": 10.0.4
+    "@semantic-release/release-notes-generator": 11.0.3
+    semantic-release: 19.0.3
+  languageName: unknown
+  linkType: soft
+
 "@ivangabriele/semantic-release-config-base@workspace:packages/base":
   version: 0.0.0-use.local
   resolution: "@ivangabriele/semantic-release-config-base@workspace:packages/base"
   dependencies:
     "@semantic-release/changelog": 6.0.3
     "@semantic-release/commit-analyzer": 10.0.1
+    "@semantic-release/github": 9.0.3
+    "@semantic-release/npm": 10.0.4
+    "@semantic-release/release-notes-generator": 11.0.3
+    semantic-release: 19.0.3
+  languageName: unknown
+  linkType: soft
+
+"@ivangabriele/semantic-release-config-dist-yarn@workspace:packages/dist-yarn":
+  version: 0.0.0-use.local
+  resolution: "@ivangabriele/semantic-release-config-dist-yarn@workspace:packages/dist-yarn"
+  dependencies:
+    "@semantic-release/changelog": 6.0.3
+    "@semantic-release/commit-analyzer": 10.0.1
+    "@semantic-release/exec": 6.0.3
     "@semantic-release/github": 9.0.3
     "@semantic-release/npm": 10.0.4
     "@semantic-release/release-notes-generator": 11.0.3
@@ -350,19 +377,6 @@ __metadata:
 "@ivangabriele/semantic-release-config-no-npm@workspace:packages/no-npm":
   version: 0.0.0-use.local
   resolution: "@ivangabriele/semantic-release-config-no-npm@workspace:packages/no-npm"
-  dependencies:
-    "@semantic-release/changelog": 6.0.3
-    "@semantic-release/commit-analyzer": 10.0.1
-    "@semantic-release/github": 9.0.3
-    "@semantic-release/npm": 10.0.4
-    "@semantic-release/release-notes-generator": 11.0.3
-    semantic-release: 19.0.3
-  languageName: unknown
-  linkType: soft
-
-"@ivangabriele/semantic-release-config-yarn@workspace:packages/yarn":
-  version: 0.0.0-use.local
-  resolution: "@ivangabriele/semantic-release-config-yarn@workspace:packages/yarn"
   dependencies:
     "@semantic-release/changelog": 6.0.3
     "@semantic-release/commit-analyzer": 10.0.1
