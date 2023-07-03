@@ -3,7 +3,9 @@
   "description": "My most commonly used Semantic Release configuration.",
   "license": "MIT",
   "version": "3.0.0",
-  "main": "./index.json",
+  "scripts": {
+    "prepare": "husky install"
+  },
   "dependencies": {
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "10.0.1",
@@ -15,22 +17,28 @@
   "resolutions": {
     "minimist": ">=1.2.6"
   },
-  "publishConfig": {
-    "access": "public"
+  "//": "https://github.com/okonet/lint-staged/issues/825#issuecomment-674575655",
+  "lint-staged": {
+    "*.{json,md,yaml,yml}": "prettier --write"
   },
-  "homepage": "https://github.com/ivangabriele/semantic-release#readme",
-  "repository": "https://github.com/ivangabriele/semantic-release",
-  "bugs": {
-    "email": "ivan.gabriele@gmail.com",
-    "url": "https://github.com/ivangabriele/semantic-release/issues"
-  },
+  "packageManager": "yarn@3.6.1",
+  "prettier": "@ivangabriele/prettier-config",
   "author": {
     "name": "Ivan Gabriele",
     "email": "ivan.gabriele@gmail.com",
     "url": "https://www.ivangabriele.com"
   },
+  "bugs": {
+    "email": "ivan.gabriele@gmail.com",
+    "url": "https://github.com/ivangabriele/semantic-release/issues"
+  },
+  "homepage": "https://github.com/ivangabriele/semantic-release#readme",
   "keywords": [
     "semantic-release",
     "config"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/ivangabriele/semantic-release"
 }
