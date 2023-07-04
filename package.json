@@ -4,7 +4,6 @@
   "license": "MIT",
   "version": "3.0.1",
   "private": true,
-  "type": "module",
   "workspaces": [
     "./packages/*"
   ],
@@ -22,10 +21,14 @@
     "prettier": "2.8.8",
     "wersion": "0.3.1"
   },
+  "//": "https://github.com/okonet/lint-staged/issues/825#issuecomment-674575655",
+  "lint-staged": {
+    "*.{json,md,yaml,yml}": "prettier --write"
+  },
+  "packageManager": "yarn@3.6.1",
+  "prettier": "@ivangabriele/prettier-config",
   "resolutions": {
     "minimist": ">=1.2.6",
     "npm/chalk": "^4.1.2"
-  },
-  "packageManager": "yarn@3.6.1",
-  "prettier": "@ivangabriele/prettier-config"
+  }
 }
