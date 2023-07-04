@@ -2,7 +2,7 @@
   "name": "@ivangabriele/semantic-release-config-base",
   "description": "My most commonly used Semantic Release configuration.",
   "license": "MIT",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "dependencies": {
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "10.0.1",
