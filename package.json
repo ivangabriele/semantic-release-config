@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "prepare": "husky install",
-    "postwersion": "git push origin HEAD --tags && npm publish"
+    "postwersion": "git push origin HEAD --tags && npm publish --workspaces"
   },
   "devDependencies": {
     "@commitlint/cli": "17.6.6",
