@@ -8,13 +8,22 @@
     "./packages/*"
   ],
   "scripts": {
+    "prepare": "husky install",
     "postwersion": "git push origin HEAD --tags && npm publish --workspaces"
   },
   "devDependencies": {
+    "@commitlint/config-conventional": "17.6.6",
     "@ivangabriele/commitlint-config": "1.0.6",
     "@ivangabriele/prettier-config": "3.1.0",
+    "commitlint": "17.6.6",
+    "husky": "8.0.3",
+    "lint-staged": "13.2.3",
     "prettier": "2.8.8",
     "wersion": "0.3.1"
+  },
+  "//": "https://github.com/okonet/lint-staged/issues/825#issuecomment-674575655",
+  "lint-staged": {
+    "*.{json,md,yaml,yml}": "prettier --write"
   },
   "packageManager": "yarn@3.6.1",
   "prettier": "@ivangabriele/prettier-config",
