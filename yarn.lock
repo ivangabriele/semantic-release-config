@@ -399,7 +399,7 @@ __metadata:
     husky: 8.0.3
     lint-staged: 13.2.3
     prettier: 2.8.8
-    wersion: 0.3.1
+    wersion: 0.3.2
   languageName: unknown
   linkType: soft
 
@@ -6803,12 +6803,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wersion@npm:0.3.1":
-  version: 0.3.1
-  resolution: "wersion@npm:0.3.1"
+"wersion@npm:0.3.2":
+  version: 0.3.2
+  resolution: "wersion@npm:0.3.2"
   bin:
     wersion: dist/index.js
-  checksum: d879336c012c29e570c34963428b17f90a11d4da2c9287ea2fd97f505ff16765c2d451d581811889afc2a866191f1724b8a22a2cb96d9eb77eb712c39e141232
+  checksum: 97d3876a26dddae870a657a64931a26b9ba1054e0cd12ab83fbf9499c16d2e6723f82b7b4b82502f563ba56c44e972b62a623008afc9aaaf0c7240b6800a20e9
   languageName: node
   linkType: hard
 
