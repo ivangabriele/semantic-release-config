@@ -3,9 +3,6 @@
   "description": "My most commonly used Semantic Release configuration.",
   "license": "MIT",
   "version": "3.0.1",
-  "scripts": {
-    "prepare": "husky install"
-  },
   "dependencies": {
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "10.0.1",
