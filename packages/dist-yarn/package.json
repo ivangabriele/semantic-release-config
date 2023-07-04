@@ -2,7 +2,7 @@
   "name": "@ivangabriele/semantic-release-config-dist-yarn",
   "description": "My most commonly used Semantic Release configuration.",
   "license": "MIT",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "main": "./index.json",
   "dependencies": {
     "@semantic-release/changelog": "6.0.3",
