@@ -8,7 +8,7 @@
     "./packages/*"
   ],
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "postwersion": "git push origin HEAD --tags && npm publish --workspaces"
   },
   "devDependencies": {
