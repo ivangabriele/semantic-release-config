@@ -1,23 +1,21 @@
 # Contributing
 
-- [Developing](#developing)
-  - [IDE](#ide)
-    - [Visual Studio Code](#visual-studio-code)
+- [Getting Started](#getting-started)
+- [Release](#release)
 
-## Developing
+## Getting Started
 
-### IDE
-
-#### Visual Studio Code
-
-Recommended settings (`.vscode/settings.json`):
-
-```json
-{
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true
-  },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
-}
+```sh
+yarn
+yarn prepare
 ```
+
+## Release
+
+```sh
+yarn wersion <release>
+```
+
+`<release>` can be one of: "patch", "minor", "major", "prepatch", "preminor", "premajor" or "prewersion".
+
+You can run it with --dry-run or -d to see what would happen without actually bumping your packages versions.

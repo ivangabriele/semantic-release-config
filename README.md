@@ -12,6 +12,7 @@ My most commonly used Semantic Release configurations.
   - [Dist (npm)](#dist-npm)
   - [Dist (Yarn)](#dist-yarn)
   - [No NPM](#no-npm)
+- [Contribution](#contribution)
 
 ---
 
@@ -46,6 +47,10 @@ Check the package [README](packages/dist-yarn/README.md).
 [![NPM Version][img-npm-no-npm]][lnk-npm-no-npm]
 
 Check the package [README](packages/no-npm/README.md).
+
+## Contribution
+
+Please refer to the [contribution guidelines](CONTRIBUTING.md) for information on how to contribute to this project.
 
 ---
 
