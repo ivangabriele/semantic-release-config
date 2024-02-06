@@ -14,6 +14,7 @@ yarn prepare
 
 ```sh
 yarn wersion <release>
+npm publish
 ```
 
 `<release>` can be one of: "patch", "minor", "major", "prepatch", "preminor", "premajor" or "prewersion".

@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "prepare": "husky",
-    "postwersion": "git push origin HEAD --tags && npm publish --workspaces"
+    "postwersion": "git push origin HEAD --tags",
+    "publish": "gnpm publish --workspaces"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "18.6.0",
