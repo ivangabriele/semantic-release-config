@@ -23,7 +23,7 @@
     "url": "https://www.ivangabriele.com"
   },
   "bugs": "https://github.com/ivangabriele/semantic-release/issues",
-  "homepage": "https://github.com/ivangabriele/semantic-release#readme",
+  "homepage": "https://github.com/ivangabriele/semantic-release-config/blob/main/packages/dist-yarn/README.md",
   "keywords": [
     "semantic-release",
     "config"
