@@ -16,6 +16,7 @@
       {
         "releaseRules": [
           { "type": "build", "scope": "deps", "release": "patch" },
+          { "type": "build", "scope": "dev-deps", "release": "patch" },
           { "type": "docs", "release": "patch" },
           { "type": "feat", "release": "minor" },
           { "type": "perf", "release": "patch" },
