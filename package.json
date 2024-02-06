@@ -14,7 +14,7 @@
   "devDependencies": {
     "@commitlint/config-conventional": "17.6.6",
     "@ivangabriele/commitlint-config": "1.0.6",
-    "@ivangabriele/prettier-config": "3.1.0",
+    "@ivangabriele/prettier-config": "4.0.1",
     "commitlint": "17.6.6",
     "husky": "9.0.10",
     "lint-staged": "13.2.3",
