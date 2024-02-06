@@ -17,13 +17,10 @@
   },
   "author": {
     "name": "Ivan Gabriele",
-    "email": "ivan.gabriele@gmail.com",
+    "email": "ivan.gabriele@protonmail.com",
     "url": "https://www.ivangabriele.com"
   },
-  "bugs": {
-    "email": "ivan.gabriele@gmail.com",
-    "url": "https://github.com/ivangabriele/semantic-release/issues"
-  },
+  "bugs": "https://github.com/ivangabriele/semantic-release/issues",
   "homepage": "https://github.com/ivangabriele/semantic-release#readme",
   "keywords": [
     "semantic-release",
@@ -32,5 +29,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "https://github.com/ivangabriele/semantic-release"
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ivangabriele/semantic-release.git"
+  }
 }
