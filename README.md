@@ -12,7 +12,7 @@ My most commonly used Semantic Release configurations.
   - [Dist (npm)](#dist-npm)
   - [Dist (Yarn)](#dist-yarn)
   - [No NPM](#no-npm)
-- [Contribution](#contribution)
+- [Contribute](#contribute)
 
 ---
 
@@ -48,7 +48,7 @@ Check the package [README](packages/dist-yarn/README.md).
 
 Check the package [README](packages/no-npm/README.md).
 
-## Contribution
+## Contribute
 
 Please refer to the [contribution guidelines](CONTRIBUTING.md) for information on how to contribute to this project.
 
