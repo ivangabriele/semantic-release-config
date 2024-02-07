@@ -60,11 +60,14 @@ jobs:
         run: yarn --immutable
       - name: Build
         run: yarn build
+      # We have to to login to NPM this way rather than using NPM_TOKEN env
+      # because it's not available in @semantic-release/exec `publishCmd` context.
+      - name: Login to NPM
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
       - name: Release
         run: yarn semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Get new version
         run: echo "NEW_VERSION=$(npm pkg get version | sed 's/"//g')" >> "$GITHUB_ENV"
       - name: Create pull request
