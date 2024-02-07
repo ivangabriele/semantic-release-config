@@ -2,7 +2,7 @@
   "name": "@ivangabriele/semantic-release-config-no-npm",
   "description": "A semantic-release configuration for projects without npm publish.",
   "license": "MIT",
-  "version": "4.1.4",
+  "version": "4.1.5",
   "type": "module",
   "main": "./index.json",
   "engines": {
