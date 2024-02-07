@@ -16,7 +16,7 @@ const nextReleaseVersion = args[0]
 const maybePackageRootPaths = await fs.readdir(path.join(process.cwd(), 'packages'))
 const packagePackageJsonPaths = []
 for (const maybePackageRootPath of maybePackageRootPaths) {
-  const maybePackagePackageJsonPath = path.join(packagesDir, maybePackageRootPath, 'package.json')
+  const maybePackagePackageJsonPath = path.join(maybePackageRootPath, 'package.json')
   if (await fs.pathExists(maybePackagePackageJsonPath)) {
     packageJsonFiles.push(maybePackagePackageJsonPath)
   }
