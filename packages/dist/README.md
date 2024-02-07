@@ -63,6 +63,7 @@ jobs:
       - name: Release
         run: yarn semantic-release
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Get new version
         run: echo "NEW_VERSION=$(npm pkg get version | sed 's/"//g')" >> "$GITHUB_ENV"
@@ -72,6 +73,7 @@ jobs:
           branch: ci-release-v${{ env.NEW_VERSION }}
           commit-message: 'ci(release): v${{ env.NEW_VERSION }}'
           title: 'ci(release): v${{ env.NEW_VERSION }}'
+          token: ${{ secrets.GITHUB_TOKEN }}
 ```
 
 ---
