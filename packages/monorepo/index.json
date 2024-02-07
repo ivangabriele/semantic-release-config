@@ -58,9 +58,9 @@
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "semantic-release-config-monorepo ${nextRelease.version}"
+        "prepareCmd": "semantic-release-config-monorepo ${nextRelease.version}",
+        "publishCmd": "npm publish --workspaces"
       }
-    ],
-    "@semantic-release/npm"
+    ]
   ]
 }
