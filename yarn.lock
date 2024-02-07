@@ -385,6 +385,7 @@ __metadata:
     husky: "npm:9.0.10"
     lint-staged: "npm:15.2.2"
     prettier: "npm:3.2.5"
+    semantic-release: "npm:23.0.1"
   languageName: unknown
   linkType: soft
 
