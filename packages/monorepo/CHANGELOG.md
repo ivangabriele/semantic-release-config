@@ -1,3 +1,10 @@
+## [4.1.1](https://github.com/ivangabriele/semantic-release-config/compare/v4.1.0...v4.1.1) (2024-02-07)
+
+
+### Build System
+
+* **dev-deps:** fix @ivangabriele/prettier-config version ([b116e25](https://github.com/ivangabriele/semantic-release-config/commit/b116e254e32720591ebd1cc3a7e264132632090a))
+
 ## [4.1.0](https://github.com/ivangabriele/semantic-release-config/compare/v4.0.1...v4.1.0) (2024-02-07)
 
 
