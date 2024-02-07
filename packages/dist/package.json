@@ -20,10 +20,6 @@
   "peerDependencies": {
     "semantic-release": "^23"
   },
-  "resolutions": {
-    "minimist": ">=1.2.6",
-    "npm/chalk": "^4.1.2"
-  },
   "publishConfig": {
     "access": "public",
     "provenance": true

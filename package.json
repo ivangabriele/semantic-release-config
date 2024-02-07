@@ -30,8 +30,7 @@
     "semantic-release": "23.0.2"
   },
   "resolutions": {
-    "minimist": ">=1.2.6",
-    "npm/chalk": "^4.1.2"
+    "minimist": ">=1.2.6"
   },
   "lint-staged": {
     "*.{json,md,yaml,yml}": "prettier --write"
