@@ -1,3 +1,10 @@
+## [4.1.2](https://github.com/ivangabriele/semantic-release-config/compare/v4.1.1...v4.1.2) (2024-02-07)
+
+
+### Documentation
+
+* **readme:** fix Github Actions workflow example for @ivangabriele/semantic-release-config-monorepo ([eb5e859](https://github.com/ivangabriele/semantic-release-config/commit/eb5e859433d3a0f4cfcbf04c5882b0999aa9539b))
+
 ## [4.1.1](https://github.com/ivangabriele/semantic-release-config/compare/v4.1.0...v4.1.1) (2024-02-07)
 
 
