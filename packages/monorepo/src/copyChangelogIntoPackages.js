@@ -1,5 +1,7 @@
 import fsExtra from 'fs-extra'
 import path from 'path'
+
+import { log } from './helpers/log.js'
 import { logErrorAndExit } from './helpers/logErrorAndExit.js'
 
 export async function copyChangelogIntoPackages(packagePackageJsonPaths) {
@@ -18,6 +20,8 @@ export async function copyChangelogIntoPackages(packagePackageJsonPaths) {
         const targetChangelogFilePath = path.join(packageRootPath, 'CHANGELOG.md')
 
         await fsExtra.copy(sourceChangelogFilePath, targetChangelogFilePath)
+
+        log(`Copied changelog to \`${packageRootPath}\`.`)
       } catch (err) {
         logErrorAndExit(`Failed to copy changelog to \`${packageRootPath}\`: ${err.message}`)
       }

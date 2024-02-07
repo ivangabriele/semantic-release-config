@@ -1,4 +1,6 @@
 import fsExtra from 'fs-extra'
+
+import { log } from './helpers/log.js'
 import { logErrorAndExit } from './helpers/logErrorAndExit.js'
 
 export async function bumpPackageVersions(packagePackageJsonPaths, nextReleaseVersion) {
@@ -12,6 +14,8 @@ export async function bumpPackageVersions(packagePackageJsonPaths, nextReleaseVe
         )
 
         await fsExtra.writeFile(packagePackageJsonPath, nextPackagePackageJsonSource, 'utf-8')
+
+        log(`Bumped version in \`${packagePackageJsonPath}\` to \`${nextReleaseVersion}\`.`)
       } catch (err) {
         logErrorAndExit(`Failed to bump version in \`${packagePackageJsonPath}\`: ${err.message}`)
       }

@@ -13,12 +13,13 @@ if (args.length !== 1) {
 }
 const nextReleaseVersion = args[0]
 
-const maybePackageRootPaths = await fs.readdir(path.join(process.cwd(), 'packages'))
+const packagesPath = path.join(process.cwd(), 'packages')
+const maybePackageRootPaths = await fs.readdir(packagesPath)
 const packagePackageJsonPaths = []
 for (const maybePackageRootPath of maybePackageRootPaths) {
-  const maybePackagePackageJsonPath = path.join(maybePackageRootPath, 'package.json')
+  const maybePackagePackageJsonPath = path.join(packagesPath, maybePackageRootPath, 'package.json')
   if (await fs.pathExists(maybePackagePackageJsonPath)) {
-    packageJsonFiles.push(maybePackagePackageJsonPath)
+    packagePackageJsonPaths.push(maybePackagePackageJsonPath)
   }
 }
 if (packagePackageJsonPaths.length === 0) {
