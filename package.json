@@ -23,7 +23,6 @@
     "prettier": "3.2.5",
     "wersion": "0.3.2"
   },
-  "//": "https://github.com/okonet/lint-staged/issues/825#issuecomment-674575655",
   "lint-staged": {
     "*.{json,md,yaml,yml}": "prettier --write"
   },
