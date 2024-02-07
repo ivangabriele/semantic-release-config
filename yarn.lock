@@ -312,6 +312,8 @@ __metadata:
     "@semantic-release/npm": "npm:11.0.2"
     "@semantic-release/release-notes-generator": "npm:12.1.0"
     semantic-release: "npm:23.0.2"
+  peerDependencies:
+    semantic-release: ^23
   languageName: unknown
   linkType: soft
 
@@ -326,6 +328,8 @@ __metadata:
     "@semantic-release/npm": "npm:11.0.2"
     "@semantic-release/release-notes-generator": "npm:12.1.0"
     semantic-release: "npm:23.0.2"
+  peerDependencies:
+    semantic-release: ^23
   languageName: unknown
   linkType: soft
 
@@ -348,6 +352,8 @@ __metadata:
     rollup: "npm:4.9.6"
     rollup-plugin-inject: "npm:3.0.2"
     semantic-release: "npm:23.0.2"
+  peerDependencies:
+    semantic-release: ^23
   bin:
     semantic-release-config-monorepo: ./dist/semantic-release-config-monorepo.js
   languageName: unknown
@@ -363,6 +369,8 @@ __metadata:
     "@semantic-release/npm": "npm:11.0.2"
     "@semantic-release/release-notes-generator": "npm:12.1.0"
     semantic-release: "npm:23.0.2"
+  peerDependencies:
+    semantic-release: ^23
   languageName: unknown
   linkType: soft
 
