@@ -26,6 +26,8 @@ jobs:
         run: yarn --immutable
       - name: Build
         run: yarn build
+      - name: Login to NPM
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
       - name: Release
         run: yarn semantic-release
         env:
