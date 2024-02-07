@@ -7,8 +7,7 @@ My most commonly used Semantic Release configurations.
 ---
 
 - [Usage](#usage)
-  - [Base (npm)](#base-npm)
-  - [Base (Yarn)](#base-yarn)
+  - [Base](#base)
   - [Dist](#dist)
   - [No NPM](#no-npm)
 - [Contribute](#contribute)
@@ -17,17 +16,11 @@ My most commonly used Semantic Release configurations.
 
 ## Usage
 
-### Base (npm)
+### Base
 
 [![NPM Version][img-npm-base]][lnk-npm-base]
 
 Check the package [README](packages/base/README.md).
-
-### Base (Yarn)
-
-[![NPM Version][img-npm-base-yarn]][lnk-npm-base-yarn]
-
-Check the package [README](packages/base-yarn/README.md).
 
 ### Dist
 
