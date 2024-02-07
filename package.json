@@ -2,7 +2,7 @@
   "name": "@ivangabriele/semantic-release-config",
   "description": "My most commonly used Semantic Release configurations.",
   "license": "MIT",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "private": true,
   "type": "module",
   "engines": {
@@ -20,7 +20,7 @@
   "devDependencies": {
     "@commitlint/config-conventional": "18.6.0",
     "@ivangabriele/commitlint-config": "1.1.0",
-    "@ivangabriele/prettier-config": "4.0.1",
+    "@ivangabriele/prettier-config": "4.1.0",
     "@ivangabriele/semantic-release-config-monorepo": "workspace:*",
     "commitlint": "18.6.0",
     "husky": "9.0.10",

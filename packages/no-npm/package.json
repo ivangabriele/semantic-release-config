@@ -2,7 +2,7 @@
   "name": "@ivangabriele/semantic-release-config-no-npm",
   "description": "My most commonly used Semantic Release configuration.",
   "license": "MIT",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "type": "module",
   "main": "./index.json",
   "engines": {
