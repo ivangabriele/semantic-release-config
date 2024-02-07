@@ -14,6 +14,6 @@ jobs:
         uses: pascalgn/automerge-action@v0.16.2
         # https://github.com/pascalgn/automerge-action#configuration
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           MERGE_LABELS: ''
           MERGE_METHOD: squash
