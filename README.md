@@ -1,6 +1,6 @@
 # My Semantic Release Configurations
 
-[![MIT License][img-license]][lnk-license]
+[![MIT License][img-license]][lnk-license] [![GitHub Check Workflow Status][img-github]][lnk-github]
 
 My most commonly used Semantic Release configurations.
 
@@ -65,11 +65,14 @@ Please refer to the [contribution guidelines](./CONTRIBUTING.md) for information
 
 ---
 
+[img-github]:
+  https://img.shields.io/github/actions/workflow/status/ivangabriele/semantic-release-config/check.yml?branch=main&label=CI&style=for-the-badge
 [img-license]: https://img.shields.io/github/license/ivangabriele/semantic-release-config?style=for-the-badge
 [img-npm-base]: https://img.shields.io/npm/v/@ivangabriele/semantic-release-config-base?style=for-the-badge
 [img-npm-dist]: https://img.shields.io/npm/v/@ivangabriele/semantic-release-config-dist?style=for-the-badge
 [img-npm-monorepo]: https://img.shields.io/npm/v/@ivangabriele/semantic-release-config-monorepo?style=for-the-badge
 [img-npm-no-npm]: https://img.shields.io/npm/v/@ivangabriele/semantic-release-config-no-npm?style=for-the-badge
+[lnk-github]: https://github.com/ivangabriele/semantic-release-config/actions?query=branch%3Amain++
 [lnk-license]: https://github.com/ivangabriele/semantic-release-config/blob/main/LICENSE
 [lnk-npm-base]: https://www.npmjs.com/package/@ivangabriele/semantic-release-config-base
 [lnk-npm-dist]: https://www.npmjs.com/package/@ivangabriele/semantic-release-config-dist

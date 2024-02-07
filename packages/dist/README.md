@@ -1,6 +1,7 @@
 # My Semantic Release Configuration
 
-[![MIT License][img-license]][lnk-license] [![NPM Version][img-npm]][lnk-npm]
+[![MIT License][img-license]][lnk-license] [![GitHub Check Workflow Status][img-github]][lnk-github]
+[![NPM Version][img-npm]][lnk-npm]
 
 My most commonly used Semantic Release configuration.
 
@@ -78,7 +79,10 @@ jobs:
 
 ---
 
+[img-github]:
+  https://img.shields.io/github/actions/workflow/status/ivangabriele/semantic-release-config/check.yml?branch=main&label=CI&style=for-the-badge
 [img-license]: https://img.shields.io/github/license/ivangabriele/semantic-release-config?style=flat-square
 [img-npm]: https://img.shields.io/npm/v/@ivangabriele/semantic-release-config-dist?style=flat-square
+[lnk-github]: https://github.com/ivangabriele/semantic-release-config/actions?query=branch%3Amain++
 [lnk-license]: https://github.com/ivangabriele/semantic-release-config/blob/main/packages/dist/LICENSE
 [lnk-npm]: https://www.npmjs.com/package/@ivangabriele/semantic-release-config-dist

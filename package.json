@@ -15,7 +15,8 @@
     "build": "yarn workspaces foreach --all --parallel --topological run build",
     "release": "semantic-release",
     "release:check": "semantic-release --dry-run",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test:lint": "yarn prettier --check ."
   },
   "devDependencies": {
     "@commitlint/config-conventional": "18.6.0",
