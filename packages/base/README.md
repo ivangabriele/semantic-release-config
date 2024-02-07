@@ -40,6 +40,11 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+      issues: write
+      pull-requests: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -58,7 +63,6 @@ jobs:
       - name: Release
         run: yarn semantic-release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Get new version
         run: echo "NEW_VERSION=$(npm pkg get version | sed 's/"//g')" >> "$GITHUB_ENV"
@@ -66,10 +70,8 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           branch: ci-release-v${{ env.NEW_VERSION }}
-          # https://docs.github.com/en/actions/managing-workflow-runs/skipping-workflow-runs
           commit-message: 'ci(release): v${{ env.NEW_VERSION }}'
           title: 'ci(release): v${{ env.NEW_VERSION }}'
-          token: ${{ secrets.GITHUB_TOKEN }}
 ```
 
 ---
