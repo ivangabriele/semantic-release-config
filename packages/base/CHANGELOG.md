@@ -1,3 +1,27 @@
+## [4.1.4](https://github.com/ivangabriele/semantic-release-config/compare/v4.1.3...v4.1.4) (2024-02-07)
+
+
+### Bug Fixes
+
+* **peer-deps:** add missing semantic-release ([8ea29d7](https://github.com/ivangabriele/semantic-release-config/commit/8ea29d7ab344aa44cb6601a56f0dc4141816c7db))
+
+
+### Documentation
+
+* **contributing:** fix typo ([a982b2c](https://github.com/ivangabriele/semantic-release-config/commit/a982b2c395c88aa247573eed308ddfa228fc2bde))
+* **readme:** update usage instructions ([5f829fd](https://github.com/ivangabriele/semantic-release-config/commit/5f829fd289362c53b25007fe9b71062a9f8deb10))
+
+
+### Code Refactoring
+
+* **npm:** re-order package.json props ([2aaa3bc](https://github.com/ivangabriele/semantic-release-config/commit/2aaa3bc9f14060a3e7a07a3224dcbdfa16d483eb))
+
+
+### Build System
+
+* **monorepo:** move chalk & fs-extra to dev-deps ([201d1e8](https://github.com/ivangabriele/semantic-release-config/commit/201d1e81f09c9057f8d7aa3a22f21b40e20fe933))
+* **npm:** remove packages resolutions ([5df71e2](https://github.com/ivangabriele/semantic-release-config/commit/5df71e22c6d3d64c5316c28d65febdf210553eca))
+
 ## [4.1.3](https://github.com/ivangabriele/semantic-release-config/compare/v4.1.2...v4.1.3) (2024-02-07)
 
 

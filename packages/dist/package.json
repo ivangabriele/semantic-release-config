@@ -2,7 +2,7 @@
   "name": "@ivangabriele/semantic-release-config-dist",
   "description": "A semantic-release configuration for projects fully pubished from a dist/ folder.",
   "license": "MIT",
-  "version": "4.1.3",
+  "version": "4.1.4",
   "type": "module",
   "main": "./index.json",
   "engines": {
