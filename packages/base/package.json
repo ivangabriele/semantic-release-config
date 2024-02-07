@@ -4,6 +4,7 @@
   "license": "MIT",
   "version": "4.0.0",
   "type": "module",
+  "main": "./index.json",
   "dependencies": {
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "11.1.0",
