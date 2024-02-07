@@ -11,13 +11,13 @@ package manager **without NPM publishing**.
 Run:
 
 ```sh
-npm i -DE @ivangabriele/semantic-release-config-no-npm
+npm i -DE @ivangabriele/semantic-release-config-no-npm semantic-release
 ```
 
 or:
 
 ```sh
-yarn add -DE @ivangabriele/semantic-release-config-no-npm
+yarn add -DE @ivangabriele/semantic-release-config-no-npm semantic-release
 ```
 
 Extend it in your `package.json`:

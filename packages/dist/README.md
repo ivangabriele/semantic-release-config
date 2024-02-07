@@ -11,13 +11,13 @@ package manager **fully released from a root `/dist` folder**.
 Run:
 
 ```sh
-npm i -DE @ivangabriele/semantic-release-config-dist
+npm i -DE @ivangabriele/semantic-release-config-dist semantic-release
 ```
 
 or:
 
 ```sh
-yarn add -DE @ivangabriele/semantic-release-config-dist
+yarn add -DE @ivangabriele/semantic-release-config-dist semantic-release
 ```
 
 Extend it in your `package.json`:

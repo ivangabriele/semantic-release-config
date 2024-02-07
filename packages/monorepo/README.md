@@ -11,13 +11,13 @@ A basic configuration for Semantic Release when using a monorepo and NPM or Yarn
 Run:
 
 ```sh
-npm i -DE @ivangabriele/semantic-release-config-monorepo
+npm i -DE @ivangabriele/semantic-release-config-monorepo semantic-release
 ```
 
 or:
 
 ```sh
-yarn add -DE @ivangabriele/semantic-release-config-monorepo
+yarn add -DE @ivangabriele/semantic-release-config-monorepo semantic-release
 ```
 
 Extend it in your `package.json`:

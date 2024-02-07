@@ -11,13 +11,13 @@ package manager.
 Run:
 
 ```sh
-npm i -DE @ivangabriele/semantic-release-config-base
+npm i -DE @ivangabriele/semantic-release-config-base semantic-release
 ```
 
 or:
 
 ```sh
-yarn add -DE @ivangabriele/semantic-release-config-base
+yarn add -DE @ivangabriele/semantic-release-config-base semantic-release
 ```
 
 Extend it in your `package.json`:
