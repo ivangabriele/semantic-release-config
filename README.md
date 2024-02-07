@@ -21,23 +21,43 @@ My most commonly used Semantic Release configurations.
 
 [![NPM Version][img-npm-base]][lnk-npm-base]
 
-Check the package [README](packages/base/README.md).
+**Package name:** `@ivangabriele/semantic-release-config-base`.
+
+**Description:** A basic configuration for Semantic Release when using a single package repository (no monorepo) and NPM
+or Yarn as package manager.
+
+Check the package [README](./packages/base/README.md).
 
 ### Dist
 
 [![NPM Version][img-npm-dist]][lnk-npm-dist]
 
-Check the package [README](packages/dist/README.md).
+**Package name:** `@ivangabriele/semantic-release-config-dist`.
+
+**Description:** A basic configuration for Semantic Release when using a single package repository (no monorepo) and NPM
+or Yarn as package manager **releasing** from a root `/dist` folder.
+
+Check the package [README](./packages/dist/README.md).
 
 ### Monorepo
 
 [![NPM Version][img-npm-monorepo]][lnk-npm-monorepo]
 
+**Package name:** `@ivangabriele/semantic-release-config-monorepo`.
+
+**Description:** A basic configuration for Semantic Release when using a monorepo and NPM or Yarn as package manager.
+
+Check the package [README](./packages/monorepo/README.md).
+
 ### No NPM
 
 [![NPM Version][img-npm-no-npm]][lnk-npm-no-npm]
 
-Check the package [README](packages/no-npm/README.md).
+**Package name:** `@ivangabriele/semantic-release-config-no-npm`.
+
+**Description:** A basic configuration for Semantic Release when using a single non-JS package repository.
+
+Check the package [README](./packages/no-npm/README.md).
 
 ## Contribute
 
