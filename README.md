@@ -9,8 +9,7 @@ My most commonly used Semantic Release configurations.
 - [Usage](#usage)
   - [Base (npm)](#base-npm)
   - [Base (Yarn)](#base-yarn)
-  - [Dist (npm)](#dist-npm)
-  - [Dist (Yarn)](#dist-yarn)
+  - [Dist](#dist)
   - [No NPM](#no-npm)
 - [Contribute](#contribute)
 
@@ -30,17 +29,11 @@ Check the package [README](packages/base/README.md).
 
 Check the package [README](packages/base-yarn/README.md).
 
-### Dist (npm)
+### Dist
 
 [![NPM Version][img-npm-dist]][lnk-npm-dist]
 
 Check the package [README](packages/dist/README.md).
-
-### Dist (Yarn)
-
-[![NPM Version][img-npm-dist-yarn]][lnk-npm-dist-yarn]
-
-Check the package [README](packages/dist-yarn/README.md).
 
 ### No NPM
 

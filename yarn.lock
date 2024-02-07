@@ -335,20 +335,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ivangabriele/semantic-release-config-dist-yarn@workspace:packages/dist-yarn":
-  version: 0.0.0-use.local
-  resolution: "@ivangabriele/semantic-release-config-dist-yarn@workspace:packages/dist-yarn"
-  dependencies:
-    "@semantic-release/changelog": "npm:6.0.3"
-    "@semantic-release/commit-analyzer": "npm:11.1.0"
-    "@semantic-release/exec": "npm:6.0.3"
-    "@semantic-release/github": "npm:9.2.6"
-    "@semantic-release/npm": "npm:11.0.2"
-    "@semantic-release/release-notes-generator": "npm:12.1.0"
-    semantic-release: "npm:23.0.1"
-  languageName: unknown
-  linkType: soft
-
 "@ivangabriele/semantic-release-config-dist@workspace:packages/dist":
   version: 0.0.0-use.local
   resolution: "@ivangabriele/semantic-release-config-dist@workspace:packages/dist"
