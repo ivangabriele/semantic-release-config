@@ -1,3 +1,10 @@
+## [4.1.5](https://github.com/ivangabriele/semantic-release-config/compare/v4.1.4...v4.1.5) (2024-02-07)
+
+
+### Bug Fixes
+
+* **monorepo:** add missing @semantic-release/exec dep ([bc9e6cb](https://github.com/ivangabriele/semantic-release-config/commit/bc9e6cb3fd6d370d9d2c2177f9276299fdda1ed1))
+
 ## [4.1.4](https://github.com/ivangabriele/semantic-release-config/compare/v4.1.3...v4.1.4) (2024-02-07)
 
 
