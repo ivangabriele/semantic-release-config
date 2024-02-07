@@ -35,7 +35,7 @@ Check the package [README](./packages/base/README.md).
 **Package name:** `@ivangabriele/semantic-release-config-dist`.
 
 **Description:** A basic configuration for Semantic Release when using a single package repository (no monorepo) and NPM
-or Yarn as package manager **releasing** from a root `/dist` folder.
+or Yarn as package manager **fully released from a root `/dist` folder**.
 
 Check the package [README](./packages/dist/README.md).
 
@@ -45,7 +45,8 @@ Check the package [README](./packages/dist/README.md).
 
 **Package name:** `@ivangabriele/semantic-release-config-monorepo`.
 
-**Description:** A basic configuration for Semantic Release when using a monorepo and NPM or Yarn as package manager.
+**Description:** A basic configuration for Semantic Release when using a monorepo and NPM or Yarn as package manager
+with packages in a `packages/` folder.
 
 Check the package [README](./packages/monorepo/README.md).
 
@@ -55,7 +56,8 @@ Check the package [README](./packages/monorepo/README.md).
 
 **Package name:** `@ivangabriele/semantic-release-config-no-npm`.
 
-**Description:** A basic configuration for Semantic Release when using a single non-JS package repository.
+**Description:** A basic configuration for Semantic Release when using a single package repository (no monorepo) and NPM
+or Yarn as package manager **without NPM publishing**.
 
 Check the package [README](./packages/no-npm/README.md).
 

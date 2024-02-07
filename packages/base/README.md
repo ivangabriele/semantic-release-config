@@ -3,7 +3,8 @@
 [![MIT License][img-license]][lnk-license] [![GitHub Check Workflow Status][img-github]][lnk-github]
 [![NPM Version][img-npm]][lnk-npm]
 
-My most commonly used Semantic Release configuration.
+A basic configuration for Semantic Release when using a single package repository (no monorepo) and NPM or Yarn as
+package manager.
 
 ## Usage
 

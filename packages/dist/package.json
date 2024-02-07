@@ -1,6 +1,6 @@
 {
   "name": "@ivangabriele/semantic-release-config-dist",
-  "description": "My most commonly used Semantic Release configuration.",
+  "description": "A semantic-release configuration for projects fully pubished from a dist/ folder.",
   "license": "MIT",
   "version": "4.1.2",
   "type": "module",
