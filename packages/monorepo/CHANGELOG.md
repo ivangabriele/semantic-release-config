@@ -1,3 +1,22 @@
+## [4.1.3](https://github.com/ivangabriele/semantic-release-config/compare/v4.1.2...v4.1.3) (2024-02-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency semantic-release to v23.0.2 ([#28](https://github.com/ivangabriele/semantic-release-config/issues/28)) ([d72a661](https://github.com/ivangabriele/semantic-release-config/commit/d72a661cf80aa67e8e0daa5cdf601698f7259f38))
+
+
+### Documentation
+
+* update descriptions ([b94b0b6](https://github.com/ivangabriele/semantic-release-config/commit/b94b0b6c0bbc32ee04d25aeee39e5a7b062226d5))
+
+
+### Build System
+
+* **dev-deps:** update dependency @ivangabriele/commitlint-config to v2 ([#29](https://github.com/ivangabriele/semantic-release-config/issues/29)) ([f2e2c52](https://github.com/ivangabriele/semantic-release-config/commit/f2e2c52d3d9310159c4b93dfeded8e5d0714cb8c))
+* **dev-deps:** upgrade dependency @ivangabriele/commitlint-config to v2.0.3 ([640a4af](https://github.com/ivangabriele/semantic-release-config/commit/640a4aff7c8e0ca5ae308aeba70852065ddde270))
+* **npm:** enable provenance ([a95eee9](https://github.com/ivangabriele/semantic-release-config/commit/a95eee970197f8e84694529fdce53b24067c898a))
+
 ## [4.1.2](https://github.com/ivangabriele/semantic-release-config/compare/v4.1.1...v4.1.2) (2024-02-07)
 
 
