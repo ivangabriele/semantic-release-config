@@ -42,35 +42,34 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           persist-credentials: false
       - name: Setup
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          cache: npm
+          cache: yarn
           node-version: 20
       - name: Install
-        run: npm ci
+        run: yarn --immutable
       - name: Build
-        run: npm run build
+        run: yarn build
       - name: Release
-        run: npm run semantic-release
+        run: yarn release
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - name: Get version
-        id: get_version
-        run: echo ::set-output name=version::$(npm pkg get version | sed 's/"//g')
+      - name: Get new version
+        run: echo "NEW_VERSION=$(npm pkg get version | sed 's/"//g')" >> "$GITHUB_ENV"
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v6
         with:
-          branch: ci-release-v${{ steps.get_version.outputs.version }}
+          branch: ci-release-v${{ env.NEW_VERSION }}
           # https://docs.github.com/en/actions/managing-workflow-runs/skipping-workflow-runs
-          commit-message: 'ci(release): ${{ steps.get_version.outputs.version }}'
-          title: 'ci(release): ${{ steps.get_version.outputs.version }}'
-          token: ${{ secrets.GH_PAT }}
+          commit-message: 'ci(release): v${{ env.NEW_VERSION }}'
+          title: 'ci(release): v${{ env.NEW_VERSION }}'
+          token: ${{ secrets.GITHUB_TOKEN }}
 ```
 
 ---

@@ -35,4 +35,4 @@ jobs:
           # https://docs.github.com/en/actions/managing-workflow-runs/skipping-workflow-runs
           commit-message: 'ci(release): v${{ env.NEW_VERSION }}'
           title: 'ci(release): v${{ env.NEW_VERSION }}'
-          token: ${{ secrets.GH_PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
