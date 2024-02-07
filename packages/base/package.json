@@ -2,7 +2,7 @@
   "name": "@ivangabriele/semantic-release-config-base",
   "description": "My most commonly used Semantic Release configuration.",
   "license": "MIT",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "type": "module",
   "main": "./index.json",
   "dependencies": {
