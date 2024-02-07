@@ -50,7 +50,7 @@ Check the package [README](packages/no-npm/README.md).
 
 ## Contribute
 
-Please refer to the [contribution guidelines](CONTRIBUTING.md) for information on how to contribute to this project.
+Please refer to the [contribution guidelines](./CONTRIBUTING.md) for information on how to contribute to this project.
 
 ---
 
