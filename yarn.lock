@@ -343,6 +343,7 @@ __metadata:
     "@rollup/plugin-node-resolve": "npm:15.2.3"
     "@semantic-release/changelog": "npm:6.0.3"
     "@semantic-release/commit-analyzer": "npm:11.1.0"
+    "@semantic-release/exec": "npm:6.0.3"
     "@semantic-release/github": "npm:9.2.6"
     "@semantic-release/release-notes-generator": "npm:12.1.0"
     "@types/fs-extra": "npm:11.0.4"
