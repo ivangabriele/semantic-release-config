@@ -9,13 +9,13 @@ My most commonly used Semantic Release configuration.
 Run:
 
 ```sh
-yarn add -DE @ivangabriele/semantic-release-config-dist
+npm i -DE @ivangabriele/semantic-release-config-dist
 ```
 
 or:
 
 ```sh
-npm i -DE @ivangabriele/semantic-release-config-dist
+yarn add -DE @ivangabriele/semantic-release-config-dist
 ```
 
 Extend it in your `package.json`:

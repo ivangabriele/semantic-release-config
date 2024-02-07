@@ -9,6 +9,12 @@ My most commonly used Semantic Release configuration.
 Run:
 
 ```sh
+npm i -DE @ivangabriele/semantic-release-config-no-npm
+```
+
+or:
+
+```sh
 yarn add -DE @ivangabriele/semantic-release-config-no-npm
 ```
 

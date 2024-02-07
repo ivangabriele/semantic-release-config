@@ -5,6 +5,9 @@
   "version": "4.0.1",
   "type": "module",
   "main": "./index.json",
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "11.1.0",

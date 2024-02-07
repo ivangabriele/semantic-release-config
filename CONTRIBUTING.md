@@ -12,11 +12,7 @@ yarn prepare
 
 ## Release
 
-```sh
-yarn wersion <release>
-yarn publish
-```
-
-`<release>` can be one of: "patch", "minor", "major", "prepatch", "preminor", "premajor" or "prewersion".
-
-You can run it with --dry-run or -d to see what would happen without actually bumping your packages versions.
+1. Got to the [Release workflow](https://github.com/ivangabriele/commitlint-config/actions/workflows/release.yml)
+2. Click on "Run workflow"
+3. Select "Branch: main" if it's not already selected
+4. Click on "Run workflow"
