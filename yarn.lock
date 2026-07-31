@@ -347,7 +347,7 @@ __metadata:
     "@semantic-release/github": "npm:9.2.6"
     "@semantic-release/release-notes-generator": "npm:12.1.0"
     "@types/fs-extra": "npm:11.0.4"
-    chalk: "npm:5.3.0"
+    chalk: "npm:6.0.0"
     esm-path: "npm:1.0.1"
     fs-extra: "npm:11.2.0"
     rollup: "npm:4.9.6"
@@ -1550,6 +1550,13 @@ __metadata:
   version: 5.3.0
   resolution: "chalk@npm:5.3.0"
   checksum: 10c0/8297d436b2c0f95801103ff2ef67268d362021b8210daf8ddbe349695333eb3610a71122172ff3b0272f1ef2cf7cc2c41fdaa4715f52e49ffe04c56340feed09
+  languageName: node
+  linkType: hard
+
+"chalk@npm:6.0.0":
+  version: 6.0.0
+  resolution: "chalk@npm:6.0.0"
+  checksum: 10c0/47fd9028aa66fa532295525fe3ac5aec5e467e0d86847d4b5f6e01f9c9bb70b6fd1edca79cddc78a0f31a357baa65cc752d30c6557d025904207d113c82d8962
   languageName: node
   linkType: hard
 
